@@ -4,8 +4,12 @@ import click
 def cli():
     """LGTM画像生成ツール"""
     lgtm()
-    click.echo('lgtm') #動作確認用
+    click.echo('たたかれたよ') #動作確認用
+
+def cli_niwa():
+    click.echo('にわたたかれたよ') 
 
 def lgtm():
+
     #ここにロジックを書く
-    pass
+    click.echo('メインよばれたよ')
