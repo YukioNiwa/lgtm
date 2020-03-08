@@ -11,6 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts':[
+            # コマンドはここに追加する
             'lgtm=lgtm.core:cli',
             'niwa=lgtm.core:cli_niwa',
         ]
